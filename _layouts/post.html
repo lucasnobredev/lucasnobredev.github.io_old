@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+
+{% if page.image %}
+  <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
+{% endif %}
+
+{{ content }}
+
+<span class="post-date">
+  {{ site.data.settings.post_date_prefix }}
+  {% assign m = page.date | date: "%-m" %}
+  {{ page.date | date: "%-d de" }}
+  {% case m %}
+    {% when '1' %}Janeiro
+    {% when '2' %}Fevereiro
+    {% when '3' %}Março
+    {% when '4' %}Abril
+    {% when '5' %}Maio
+    {% when '6' %}Junho
+    {% when '7' %}Julho
+    {% when '8' %}Agosto
+    {% when '9' %}Setembro
+    {% when '10' %}Outubro
+    {% when '11' %}Novembro
+    {% when '12' %}Dezembro
+  {% endcase %}
+  {{ page.date | date: " de %Y" }}
+</span>
+
+<div class="post-date">
+
+  <div style="float:left">
+    <img style="border-radius:50%" src="https://pbs.twimg.com/profile_images/1054184352005922816/5dEb0KKB_bigger.jpg" />
+  </div>
+  <div style="float:left; margin: 0 0 0 2%; width:60%">
+    <h3 style="margin:0; font-size:20px;">Lucas Nobre</h3>
+    <p style="margin:0; font-size:16px;">
+      Carioca, .NET Developer na <a href="https://mundipagg.com">Mundipagg</a>, contribuidor do <a href="https://docs.microsoft.com/">Microsoft Docs</a>, baterista, violonista, compositor, aprendiz de espanhol.
+    </p>
+  </div>
+</div>
+
+{% include social-sharing.html %}
+
+{% include related-posts.html %}
+
+{% if site.data.settings.disqus.comments %}
+  {% include disqus.html %}
+{% endif %}
