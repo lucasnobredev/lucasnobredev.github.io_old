@@ -5,16 +5,16 @@ author: "Lucas Nobre"
 categories: opensource
 tags: [microsoft,git, github, opensource]
 image: microsoftopensource.jpg
-summary: "bla ble bli"
+summary: "Além de contar sobre a minha experiência, gostaria que este artigo fosse também sobre você, que nunca contribuiu antes, comece a fazê-lo! Eu estou tendo uma experiência muito bacana com a Microsoft e espero ser uma porta de entrada para mais contribuidores."
 ---
 
 ## Notas do autor ##
 > _Além de contar sobre a minha experiência, gostaria que este artigo fosse também sobre você, que nunca contribuiu antes, comece a fazê-lo! Eu estou tendo uma experiência muito bacana com a Microsoft e espero ser uma porta de entrada para mais contribuidores.<br>
 PS: o artigo exige um conhecimento mínimo de Git._
-<br>
-<hr>
-<br>
-Pra quem não sabe, a **Microsoft é uma das principais contribuidoras** do Open Source. Desde a chegada do Satya Nadella como CEO, ela tem tomado várias decisões ao longo dos anos que pra muitos parecia improvável, como se tornar um membro da Linux Foundation, o encerramento do CodePlex, a migração de todo o código fonte do Windows para o GitHub e o meu favorito: o .NET Core.
+
+---
+
+Pra quem não sabe, a **[Microsoft é uma das principais contribuidoras](https://www.infoworld.com/article/3253948/open-source-tools/who-really-contributes-to-open-source.html)** do Open Source. Desde a chegada do Satya Nadella como CEO, ela tem tomado várias decisões ao longo dos anos que pra muitos parecia improvável, [como se tornar um membro da Linux Foundation](https://open.microsoft.com/2016/11/17/microsoft-joins-linux-foundation/), [o encerramento do CodePlex](https://blogs.msdn.microsoft.com/bharry/2017/03/31/shutting-down-codeplex/), [a migração de todo o código fonte do Windows para o GitHub](https://www.codigofonte.com.br/noticias/microsoft-move-todo-o-codigo-do-windows-para-o-git), [o .NET Core](https://blogs.msdn.microsoft.com/dotnet/2014/11/12/net-core-is-open-source/) e por último: [a aquisição do GitHub](https://www.zdnet.com/article/linux-foundation-microsofts-github-buy-is-a-win-for-open-source/).
 
 Eu ouvi falar sobre a Microsoft e o Open Source há algum tempo, mas apenas recentemente tive a chance de contribuir e obter minha primeira experiência. Assim, pude tirar minhas próprias conclusões e aqui vou comentar como foi esse processo através de algumas etapas chaves:
 
@@ -22,32 +22,32 @@ Eu ouvi falar sobre a Microsoft e o Open Source há algum tempo, mas apenas rece
 - Issues
 - Pull Request
 
-Tudo começou quando eu estava olhando minha timeline no Twitter e a Maira Wenzel tweetou agradecendo a comunidade sobre todo o trabalho feito na documentação do .NET naquele mês. Eu, que já havia tomado um puxão de orelha de amigos por não ter começado a contribuir no GitHub, vi que era a oportunidade perfeita!
+Tudo começou quando eu estava olhando minha timeline no Twitter [e a Maira Wenzel tweetou](https://twitter.com/mairacw/status/969636807292813313) agradecendo a comunidade sobre todo o trabalho feito na [documentação do .NET](https://docs.microsoft.com/en-us/dotnet/) naquele mês. Eu, que já havia tomado um puxão de orelha de amigos por não ter começado a contribuir no GitHub, vi que era a oportunidade perfeita!
 
 ![Twitter_Maira](../assets/img/twitter_maira.png)
 
 <hr>
 
 # Guia de contribuição #
-Antes das issues, ela me recomendou ler o guia de contribuição do repositório. Se você possui o domínio do inglês para leitura + domínio do básico do Git, acredito que seja muito simples entender as regras para contribuir.
+Antes das issues, ela me recomendou ler [o guia de contribuição](https://github.com/dotnet/docs/blob/master/CONTRIBUTING.md) do repositório. Se você possui o domínio do inglês para leitura + domínio do básico do Git, acredito que seja muito simples entender as regras para contribuir.
 
 É muito importante que você leia o guia de contribuição de qualquer repositório antes de mais nada. Vai evitar dúvidas bobas e você entenderá rapidamente como o time trabalha.
 
 A primeira etapa do guia mostra o passo a passo para você começar. Existem três formas:
 
 - Escrever um novo conteúdo ou revisar algum existente. A partir disso você deve criar uma issue explicando sua sugestão.
-- Ver os projetos já discutidos e em desenvolvimento pela comunidade.
+- Ver os [projetos](https://github.com/dotnet/docs/projects/35) já discutidos e em desenvolvimento pela comunidade.
 - **[ESCOLHIDA]** Ver as issues em discussão e se voluntariar para a tarefa.
 
-Após a tarefa ter sido direcionada a você, dê um **Fork** no projeto e crie sua branch para fazer as alterações necessárias.
+Após a tarefa ter sido direcionada a você, dê um **[Fork](https://help.github.com/articles/fork-a-repo/)** no projeto e crie sua branch para fazer as alterações necessárias.
 
-Caso você decida revisar algum conteúdo existente e haja pequenos erros, como por exemplo erros gramaticais ou traduções incorretas, a sua contribuição pode ser feita de forma muito mais simples. Todo artigo possui um botão de edição. Ao clicá-lo, você será redirecionado e poderá fazer sua sugestão de melhoria pela própria interface do GitHub! A Microsoft possui um passo-a-passo específico para essas melhorias mais simples. Você pode dar uma olhada neste link.
+Caso você decida revisar algum conteúdo existente e haja pequenos erros, como por exemplo erros gramaticais ou traduções incorretas, a sua contribuição pode ser feita de forma muito mais simples. Todo artigo possui um botão de edição. Ao clicá-lo, você será redirecionado e poderá fazer sua sugestão de melhoria pela própria interface do GitHub! A Microsoft possui um passo-a-passo específico para essas melhorias mais simples. Você pode dar uma olhada neste [link](https://docs.microsoft.com/en-us/contribute/#quick-edits-to-existing-documents).
 
-O guia também explica a estrutura do projeto e esclarece que os artigos são arquivos Markdown. Para mais informações sobre o Markdown, veja este guia. Existem mais passos, mas prefiro não dar mais spoilers. Leia o guia de contribuição!
+O guia também explica a estrutura do projeto e esclarece que os artigos são arquivos Markdown. Para mais informações sobre o Markdown, veja este guia. Existem mais passos, mas prefiro não dar mais spoilers. [Leia o guia de contribuição](https://github.com/dotnet/docs/blob/master/CONTRIBUTING.md)!
 
 # Issues #
 
-Ao olhar as issues, procurei a mais simples para ajudar, já que era a minha primeira vez. Por fim, caí nesta discussão sobre "inconsistência das palavras white-space/white space" e logo me voluntariei pra fazer as correções. Fui orientado pelo Ron Petrusha, onde ele me ajudou a entender exatamente o problema, as formas que eu poderia solucioná-lo, abertura de pull requests, política de branches, enfim, muitas coisas já citadas no guia de contribuição. No final, Ron me pediu para avisá-lo caso iniciasse a tarefa, para que ele a adicionasse nos Projetos do repositório.
+Ao olhar as issues, procurei a mais simples para ajudar, já que era a minha primeira vez. Por fim, caí [nesta discussão](https://github.com/dotnet/docs/issues/4439) sobre "inconsistência das palavras white-space/white space" e logo me voluntariei pra fazer as correções. Fui orientado pelo Ron Petrusha, onde ele me ajudou a entender exatamente o problema, as formas que eu poderia solucioná-lo, abertura de pull requests, política de branches, enfim, muitas coisas já citadas no guia de contribuição. No final, Ron me pediu para avisá-lo caso iniciasse a tarefa, para que ele a adicionasse nos Projetos do repositório.
 
 Como vocês podem ver, a issue ainda não foi concluída. Estou no meio do caminho. Até a data deste artigo já havia revisado o docs/csharp, docs/standard e o docs/core. Caso alguém queira me ajudar a concluí-la, comente na issue e vamos dividir a tarefa!
 
@@ -65,12 +65,12 @@ git checkout your-branch
 git merge master
 {% endhighlight %}
 
-Caso haja conflitos que te impossibilite de fazer o merge, use uma ferramenta como o VS Code para solucioná-los. Não vou me aprofundar, mas existe uma doc muito bacana sobre versionamento com ele. Acessem lá!
+Caso haja conflitos que te impossibilite de fazer o merge, use uma ferramenta como o VS Code para solucioná-los. Não vou me aprofundar, mas existe uma doc muito bacana sobre versionamento com ele. [Acessem lá](https://code.visualstudio.com/docs/editor/versioncontrol#_merge-conflicts)!
 
-Para fazer download do VS Code, clique aqui.
+Para fazer download do VS Code, [clique aqui](https://code.visualstudio.com/download).
 
 ## Dica #2! ##
-Um grande incentivo para você usar o VS Code quando estiver contribuindo para a documentação da Microsoft é o Docs Authoring Pack. Ele atribui várias funcionalidades como um assistente para a criação de Markdown e visualização do arquivo como um artigo. Você pode ler um pouco mais sobre ele aqui. E adivinha? Também é open source!
+Um grande incentivo para você usar o VS Code quando estiver contribuindo para a documentação da Microsoft é o [Docs Authoring Pack](https://github.com/Microsoft/vscode-docs-authoring). Ele atribui várias funcionalidades como um assistente para a criação de Markdown e visualização do arquivo como um artigo. Você pode ler um pouco mais sobre ele [aqui](https://docs.microsoft.com/pt-br/teamblog/docs-extension). E adivinha? Também é open source!
 
 # Pull Request #
 
@@ -114,7 +114,7 @@ No Twitter eu postei um agradecimento a Maira pelo meu primeiro pull request apr
 
 ![Twitter_Bill](../assets/img/twitter_bill.png)
 
-E acredito que não seja só eu que me sinta assim. O twitter oficial da própria documentação, o @docsmsft, interage bastante com todos nós e costuma retweetar muitos agradecimentos de novos contribuidores.
+E acredito que não seja só eu que me sinta assim. O twitter oficial da própria documentação, o [@docsmsft](http://twitter.com/docsmsft), interage bastante com todos nós e costuma retweetar muitos agradecimentos de novos contribuidores.
 
 ![Twitter_Docs](../assets/img/twitter_docs.png)
 
