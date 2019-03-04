@@ -5,6 +5,7 @@ author: "Lucas Nobre"
 categories: opensource
 tags: [microsoft,git, github, opensource]
 image: microsoftopensource.jpg
+summary: "bla ble bli"
 ---
 
 ## Notas do autor ##
