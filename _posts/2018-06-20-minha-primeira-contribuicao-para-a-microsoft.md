@@ -5,6 +5,7 @@ author: "Lucas Nobre"
 categories: opensource
 tags: [microsoft,git, github, opensource]
 image: microsoftopensource.jpg
+hide: false
 summary: "Além de contar sobre a minha experiência, gostaria que este artigo fosse também sobre você, que nunca contribuiu antes, comece a fazê-lo! Eu estou tendo uma experiência muito bacana com a Microsoft e espero ser uma porta de entrada para mais contribuidores."
 ---
 
