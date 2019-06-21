@@ -24,7 +24,7 @@ Entretanto eu entenderia apenas anos depois o principal aprendizado sobre toda e
 ## Quando meu time cresce, eu cresço também
 
 ![Twitter_Maira](../assets/img/dont_just_code_for_yourself2.jpg)
-*Photo by <a href="/photographer/jlburgess-49069">Janet Burgess</a> from <a href="https://freeimages.com/">FreeImages</a>*
+*Photo by <a href="https://pt.freeimages.com/photographer/jlburgess-49069">Janet Burgess</a> from <a href="https://freeimages.com/">FreeImages</a>*
 
 Se você descobrir uma maneira melhor ou mais rápida de resolver um problema e seu time não, talvez você seja um contraste! Mas o resto deles irão puxar a régua pra baixo... Aí você pensa:
 
