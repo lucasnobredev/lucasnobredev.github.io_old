@@ -23,6 +23,8 @@ Entretanto eu entenderia apenas anos depois o principal aprendizado sobre toda e
 
 ## Quando meu time cresce, eu cresço também
 
+![Twitter_Maira](../assets/img/dont_just_code_for_yourself2.jpg)
+
 Se você descobrir uma maneira melhor ou mais rápida de resolver um problema e seu time não, talvez você seja um contraste! Mas o resto deles irão puxar a régua pra baixo... Aí você pensa:
 
 > "Eu lutei muito pra chegar até aqui. Por que eles também não podem?"
